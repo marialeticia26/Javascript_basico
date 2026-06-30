@@ -1,0 +1,146 @@
+body {
+    font-family: Arial;
+    margin: 0 auto;
+    background-color: #f3e4b3;
+    color: #1c1c1c;
+    max-width: 850px;
+    min-height: 100vh;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    color: #d8ad38;
+    background-color: #1c1c1c;
+    padding: 15px;
+    border: 3px solid #9b1c1c;
+    border-radius: 8px;
+}
+
+
+h2 {
+    color: #9b1c1c;
+    margin-top: 30px;
+    border-top: 2px solid #d8ad38;
+    border-bottom: 2px solid #d8ad38;
+    padding: 8px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.caixa-cadastro {
+    background-color: #fff4cf;
+    border: 2px solid #1c1c1c;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 25px auto;
+    max-width: 450px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #1c1c1c;
+    border-radius: 4px;
+    background-color: #fff9e8;
+    margin-bottom: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 8px 14px;
+    border: 1px solid #1c1c1c;
+    border-radius: 4px;
+    background-color: #9b1c1c;
+    color: #fff4cf;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1c1c1c;
+    color: #d8ad38;
+}
+
+#modoEscuro {
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+#cadastrar {
+    margin-top: 10px;
+}
+
+#mensagem {
+    min-height: 20px;
+    margin-bottom: 0;
+    color: #9b1c1c;
+    font-weight: bold;
+}
+
+#contador {
+    font-weight: bold;
+    color: #1c1c1c;
+}
+
+.filme {
+    border: 2px solid #1c1c1c;
+    padding: 15px;
+    margin: 15px auto;
+    border-radius: 8px;
+    background-color: #fff4cf;
+    color: #1c1c1c;
+    max-width: 450px;
+    text-align: left;
+}
+
+
+/* modo escuro */
+.escuro {
+    background-color: #1c1c1c;
+    color: #fff4cf;
+}
+
+.escuro h1 {
+    background-color: #fff4cf;
+    color: #1c1c1c;
+}
+
+.escuro h2 {
+    color: #d8ad38;
+    border-color: #9b1c1c;
+}
+
+.escuro .caixa-cadastro {
+    background-color: #2b2b2b;
+    border: 2px solid #d8ad38;
+}
+
+.escuro label {
+    color: #fff4cf;
+}
+
+.escuro input {
+    background-color: #1c1c1c;
+    color: #fff4cf;
+    border: 1px solid #d8ad38;
+}
+
+.escuro .filme {
+    border: 2px solid #d8ad38;
+    background-color: #2b2b2b;
+    color: #fff4cf;
+}
+
+.escuro #contador {
+    color: #fff4cf;
+}
